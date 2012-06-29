@@ -9,16 +9,16 @@ $(function(){
 
   function showMenu() {
     _menu.stop();
-   _menu.animate({'opacity':1},'fast');
+    _menu.animate({'opacity':1},'fast');
   }
 
   function fadeMenu(e) {
     if (canCheck) {
-        canCheck = false;
-        if (!_menu.is(':animated')) {
-            _menu.animate({'opacity':0.2});
-        }
-        setTimeout(function(){canCheck=true},100);
+      canCheck = false;
+      if (!_menu.is(':animated')) {
+          _menu.animate({'opacity':0.2});
+      }
+      setTimeout(function(){canCheck=true},100);
     }
   }  
 });
