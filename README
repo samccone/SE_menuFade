@@ -1,1 +1,8 @@
 A JS plugin for http://samx.it/ to automatically fade your nav menu on scroll
+
+
+paste this into your JS tab of your custom theme
+
+</script>
+<script src="https://raw.github.com/samccone/SE_menuFade/master/fader.js"></script>
+<script>
